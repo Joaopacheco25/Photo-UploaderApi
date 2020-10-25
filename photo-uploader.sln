@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "photo-uploader", "photo-uploader\photo-uploader.csproj", "{1219BA04-1849-4B5D-B79A-72D7C200B907}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoUploderTest", "PhotoUploderTest\PhotoUploderTest.csproj", "{33DEDC1D-1C06-4872-A3C9-3ABBB39C53BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1219BA04-1849-4B5D-B79A-72D7C200B907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1219BA04-1849-4B5D-B79A-72D7C200B907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1219BA04-1849-4B5D-B79A-72D7C200B907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DEDC1D-1C06-4872-A3C9-3ABBB39C53BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DEDC1D-1C06-4872-A3C9-3ABBB39C53BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DEDC1D-1C06-4872-A3C9-3ABBB39C53BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DEDC1D-1C06-4872-A3C9-3ABBB39C53BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

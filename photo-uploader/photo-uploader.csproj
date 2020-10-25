@@ -6,24 +6,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Services" />
-      <Folder Include="Utils" />
+      <Compile Remove="Controllers\WeatherForecastController.cs" />
+      <Compile Remove="WeatherForecast.cs" />
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Remove="Repository\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <EmbeddedResource Remove="Repository\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="Repository\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Content Remove="Repository\**" />
+      <PackageReference Include="EfCore3.SqlServer2008Query" Version="1.0.0" />
+      <PackageReference Include="PhantomNet.Entities.EntityFrameworkCore" Version="1.0.3" />
     </ItemGroup>
 
 

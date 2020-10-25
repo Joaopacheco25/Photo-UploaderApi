@@ -38,6 +38,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "EfCore3.SqlServer2008Query": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "PhantomNet.Entities.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
